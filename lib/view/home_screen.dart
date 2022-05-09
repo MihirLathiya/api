@@ -14,39 +14,39 @@ class FontsScreen extends StatelessWidget {
             if (Responsive.isDesktop(context))
               Expanded(
                 child: Container(
-                  margin: EdgeInsets.all(20),
+                  margin: const EdgeInsets.all(20),
                   color: Colors.red,
                 ),
               ),
             Expanded(
               child: Container(
-                margin: EdgeInsets.all(20),
+                margin: const EdgeInsets.all(20),
                 color: Colors.green,
               ),
             ),
             if (Responsive.isTablet(context))
               Expanded(
                 child: Container(
-                  margin: EdgeInsets.all(20),
+                  margin: const EdgeInsets.all(20),
                   color: Colors.purple,
                 ),
               ),
             Expanded(
               child: Container(
-                margin: EdgeInsets.all(20),
+                margin: const EdgeInsets.all(20),
                 color: Colors.pink,
               ),
             ),
             if (Responsive.isMobile(context))
               Expanded(
                 child: Container(
-                  margin: EdgeInsets.all(20),
+                  margin: const EdgeInsets.all(20),
                   color: Colors.yellow,
                 ),
               ),
             Expanded(
               child: Container(
-                margin: EdgeInsets.all(20),
+                margin: const EdgeInsets.all(20),
                 color: Colors.orange,
               ),
             ),
